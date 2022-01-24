@@ -8,17 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		076BDEA2279D1E9200EE1DCF /* SwiftUiLoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076BDEA1279D1E9200EE1DCF /* SwiftUiLoginApp.swift */; };
-		076BDEA4279D1E9200EE1DCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076BDEA3279D1E9200EE1DCF /* ContentView.swift */; };
+		076BDEA4279D1E9200EE1DCF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076BDEA3279D1E9200EE1DCF /* LoginView.swift */; };
 		076BDEA6279D1E9600EE1DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076BDEA5279D1E9600EE1DCF /* Assets.xcassets */; };
 		076BDEA9279D1E9600EE1DCF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076BDEA8279D1E9600EE1DCF /* Preview Assets.xcassets */; };
+		076BDEB1279D2EEE00EE1DCF /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076BDEB0279D2EEE00EE1DCF /* FormField.swift */; };
+		076BDEB3279D4F6600EE1DCF /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076BDEB2279D4F6600EE1DCF /* CommonButton.swift */; };
+		076BDEB7279D64CA00EE1DCF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076BDEB6279D64CA00EE1DCF /* UserModel.swift */; };
+		076BDEB9279D87E200EE1DCF /* LoginSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076BDEB8279D87E200EE1DCF /* LoginSuccess.swift */; };
+		076BDEBB279D87FE00EE1DCF /* ChangePwd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076BDEBA279D87FE00EE1DCF /* ChangePwd.swift */; };
+		07E9B998279E61FA008B02B5 /* ChangePwdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E9B997279E61FA008B02B5 /* ChangePwdModel.swift */; };
+		07E9B99B279EA26C008B02B5 /* ValidEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E9B99A279EA26C008B02B5 /* ValidEnum.swift */; };
+		07E9B99F279EA36B008B02B5 /* RequirementTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E9B99E279EA36B008B02B5 /* RequirementTextView.swift */; };
+		07E9B9A1279EA3A8008B02B5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E9B9A0279EA3A8008B02B5 /* LoadingView.swift */; };
+		07E9B9A3279EDD37008B02B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07E9B9A2279EDD37008B02B5 /* GoogleService-Info.plist */; };
+		4F318C80318350358E771E07 /* Pods_SwiftUiLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97B380A0946BCCE2C24A3B0 /* Pods_SwiftUiLogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		076BDE9E279D1E9200EE1DCF /* SwiftUiLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		076BDEA1279D1E9200EE1DCF /* SwiftUiLoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiLoginApp.swift; sourceTree = "<group>"; };
-		076BDEA3279D1E9200EE1DCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		076BDEA3279D1E9200EE1DCF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		076BDEA5279D1E9600EE1DCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		076BDEA8279D1E9600EE1DCF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		076BDEB0279D2EEE00EE1DCF /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		076BDEB2279D4F6600EE1DCF /* CommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
+		076BDEB6279D64CA00EE1DCF /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		076BDEB8279D87E200EE1DCF /* LoginSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccess.swift; sourceTree = "<group>"; };
+		076BDEBA279D87FE00EE1DCF /* ChangePwd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePwd.swift; sourceTree = "<group>"; };
+		07E9B997279E61FA008B02B5 /* ChangePwdModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePwdModel.swift; sourceTree = "<group>"; };
+		07E9B99A279EA26C008B02B5 /* ValidEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidEnum.swift; sourceTree = "<group>"; };
+		07E9B99E279EA36B008B02B5 /* RequirementTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequirementTextView.swift; sourceTree = "<group>"; };
+		07E9B9A0279EA3A8008B02B5 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		07E9B9A2279EDD37008B02B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		58189DC11F38991C23739FA0 /* Pods-SwiftUiLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUiLogin.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUiLogin/Pods-SwiftUiLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		989938DD72EB7091CBC2AC48 /* Pods-SwiftUiLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUiLogin.release.xcconfig"; path = "Target Support Files/Pods-SwiftUiLogin/Pods-SwiftUiLogin.release.xcconfig"; sourceTree = "<group>"; };
+		D97B380A0946BCCE2C24A3B0 /* Pods_SwiftUiLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUiLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F318C80318350358E771E07 /* Pods_SwiftUiLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +62,8 @@
 			children = (
 				076BDEA0279D1E9200EE1DCF /* SwiftUiLogin */,
 				076BDE9F279D1E9200EE1DCF /* Products */,
+				CBE3F3B645383B497E25E9E4 /* Pods */,
+				2C90B43970A35950E62AA569 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +78,12 @@
 		076BDEA0279D1E9200EE1DCF /* SwiftUiLogin */ = {
 			isa = PBXGroup;
 			children = (
+				07E9B9A2279EDD37008B02B5 /* GoogleService-Info.plist */,
+				07E9B999279EA251008B02B5 /* Enum */,
+				076BDEB5279D64B800EE1DCF /* Model */,
+				076BDEB4279D64A500EE1DCF /* View */,
+				076BDEAF279D210600EE1DCF /* Widget */,
 				076BDEA1279D1E9200EE1DCF /* SwiftUiLoginApp.swift */,
-				076BDEA3279D1E9200EE1DCF /* ContentView.swift */,
 				076BDEA5279D1E9600EE1DCF /* Assets.xcassets */,
 				076BDEA7279D1E9600EE1DCF /* Preview Content */,
 			);
@@ -67,6 +98,61 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		076BDEAF279D210600EE1DCF /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				076BDEB0279D2EEE00EE1DCF /* FormField.swift */,
+				076BDEB2279D4F6600EE1DCF /* CommonButton.swift */,
+				07E9B99E279EA36B008B02B5 /* RequirementTextView.swift */,
+				07E9B9A0279EA3A8008B02B5 /* LoadingView.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		076BDEB4279D64A500EE1DCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				076BDEA3279D1E9200EE1DCF /* LoginView.swift */,
+				076BDEB8279D87E200EE1DCF /* LoginSuccess.swift */,
+				076BDEBA279D87FE00EE1DCF /* ChangePwd.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		076BDEB5279D64B800EE1DCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				076BDEB6279D64CA00EE1DCF /* UserModel.swift */,
+				07E9B997279E61FA008B02B5 /* ChangePwdModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07E9B999279EA251008B02B5 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				07E9B99A279EA26C008B02B5 /* ValidEnum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		2C90B43970A35950E62AA569 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D97B380A0946BCCE2C24A3B0 /* Pods_SwiftUiLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBE3F3B645383B497E25E9E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58189DC11F38991C23739FA0 /* Pods-SwiftUiLogin.debug.xcconfig */,
+				989938DD72EB7091CBC2AC48 /* Pods-SwiftUiLogin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +160,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 076BDEAC279D1E9600EE1DCF /* Build configuration list for PBXNativeTarget "SwiftUiLogin" */;
 			buildPhases = (
+				1C3E4B525DEA9C0B472233F9 /* [CP] Check Pods Manifest.lock */,
 				076BDE9A279D1E9200EE1DCF /* Sources */,
 				076BDE9B279D1E9200EE1DCF /* Frameworks */,
 				076BDE9C279D1E9200EE1DCF /* Resources */,
+				47D5356791CD21835FD6A062 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SwiftUiLogin;
+			packageProductDependencies = (
+			);
 			productName = SwiftUiLogin;
 			productReference = 076BDE9E279D1E9200EE1DCF /* SwiftUiLogin.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +201,8 @@
 				Base,
 			);
 			mainGroup = 076BDE95279D1E9200EE1DCF;
+			packageReferences = (
+			);
 			productRefGroup = 076BDE9F279D1E9200EE1DCF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,18 +219,70 @@
 			files = (
 				076BDEA9279D1E9600EE1DCF /* Preview Assets.xcassets in Resources */,
 				076BDEA6279D1E9600EE1DCF /* Assets.xcassets in Resources */,
+				07E9B9A3279EDD37008B02B5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C3E4B525DEA9C0B472233F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUiLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47D5356791CD21835FD6A062 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUiLogin/Pods-SwiftUiLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUiLogin/Pods-SwiftUiLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUiLogin/Pods-SwiftUiLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		076BDE9A279D1E9200EE1DCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				076BDEA4279D1E9200EE1DCF /* ContentView.swift in Sources */,
+				076BDEB1279D2EEE00EE1DCF /* FormField.swift in Sources */,
+				07E9B998279E61FA008B02B5 /* ChangePwdModel.swift in Sources */,
+				076BDEA4279D1E9200EE1DCF /* LoginView.swift in Sources */,
+				07E9B9A1279EA3A8008B02B5 /* LoadingView.swift in Sources */,
+				07E9B99F279EA36B008B02B5 /* RequirementTextView.swift in Sources */,
+				076BDEB3279D4F6600EE1DCF /* CommonButton.swift in Sources */,
+				076BDEB9279D87E200EE1DCF /* LoginSuccess.swift in Sources */,
+				076BDEB7279D64CA00EE1DCF /* UserModel.swift in Sources */,
 				076BDEA2279D1E9200EE1DCF /* SwiftUiLoginApp.swift in Sources */,
+				07E9B99B279EA26C008B02B5 /* ValidEnum.swift in Sources */,
+				076BDEBB279D87FE00EE1DCF /* ChangePwd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +407,7 @@
 		};
 		076BDEAD279D1E9600EE1DCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58189DC11F38991C23739FA0 /* Pods-SwiftUiLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -277,6 +422,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,6 +438,7 @@
 		};
 		076BDEAE279D1E9600EE1DCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989938DD72EB7091CBC2AC48 /* Pods-SwiftUiLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +453,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
